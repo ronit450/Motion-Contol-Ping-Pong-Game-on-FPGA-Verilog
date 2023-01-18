@@ -1,0 +1,94 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Dec 19 23:49:18 2021
+| Host         : DESKTOP-3JUAK11 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    63 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     2 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              47 |           15 |
+| Yes          | No                    | No                     |             113 |           57 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              17 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+-----------------------------+-------------------------------+------------------+----------------+--------------+
+|    Clock Signal   |        Enable Signal        |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------+-----------------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_d_out_BUFG   | h_count1/E[0]               |                               |                1 |              1 |         1.00 |
+|  clk_d_out_BUFG   | r/display_x                 | r/rxshift_reg_reg[4]_1        |                3 |              4 |         1.33 |
+|  clk_d_out_BUFG   | pg/collision_state          |                               |                2 |              4 |         2.00 |
+|  clk_d_out_BUFG   | pg/healthcounter[3]_i_1_n_0 |                               |                2 |              4 |         2.00 |
+|  clk_in_IBUF_BUFG | r/bit_counter               | r/bit_counter[3]_i_1_n_0      |                2 |              4 |         2.00 |
+|  clk_d_out_BUFG   |                             |                               |                4 |              5 |         1.25 |
+|  clk_d_out_BUFG   | r/display_x                 |                               |                3 |              5 |         1.67 |
+|  clk_d_out_BUFG   | h_count1/E[0]               | v_count1/v_count[9]_i_1_n_0   |                4 |              9 |         2.25 |
+|  clk_in_IBUF_BUFG | r/rxshift_reg_0             |                               |                5 |              9 |         1.80 |
+|  clk_d_out_BUFG   |                             | h_count1/h_count[9]_i_1_n_0   |                5 |             10 |         2.00 |
+|  clk_in_IBUF_BUFG |                             |                               |                3 |             11 |         3.67 |
+|  clk_d_out_BUFG   | pg/red[3]_i_1_n_0           |                               |                6 |             12 |         2.00 |
+|  clk_d_out_BUFG   | pg/ball_x                   |                               |                9 |             14 |         1.56 |
+|  clk_in_IBUF_BUFG |                             | r/baudrate_counter[0]_i_1_n_0 |                4 |             14 |         3.50 |
+|  clk_d_out_BUFG   |                             | pg/counter2                   |                6 |             23 |         3.83 |
+|  clk_d_out_BUFG   | pg/E[0]                     |                               |               29 |             64 |         2.21 |
++-------------------+-----------------------------+-------------------------------+------------------+----------------+--------------+
+
+

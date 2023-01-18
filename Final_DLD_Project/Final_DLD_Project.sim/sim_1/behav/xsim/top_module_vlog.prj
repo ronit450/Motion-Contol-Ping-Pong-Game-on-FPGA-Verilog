@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Final_DLD_Project.srcs/sources_1/new/Receiver_RxD.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/clk_div.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/gameend.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/h_counter.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/menu.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/pong_game.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/v_counter.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/vga_sync.v" \
+"../../../../Final_DLD_Project.srcs/sources_1/new/toplevel.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

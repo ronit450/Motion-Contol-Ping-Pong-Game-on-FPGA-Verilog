@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/Receiver_RxD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Receiver_RxD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/gameend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_end
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/h_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module h_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/menu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module menu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/pong_game.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pong_game
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/v_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module v_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/vga_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.srcs/sources_1/new/toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

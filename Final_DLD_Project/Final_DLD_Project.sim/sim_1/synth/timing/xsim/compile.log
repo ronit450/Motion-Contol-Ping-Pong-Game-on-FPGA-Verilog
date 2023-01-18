@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Habib University/Semester3/DLD/Project/Final_DLD_Project/Final_DLD_Project.sim/sim_1/synth/timing/xsim/top_module_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Receiver_RxD
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-311] analyzing module h_counter
+INFO: [VRFC 10-311] analyzing module pong_game
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-311] analyzing module v_counter
+INFO: [VRFC 10-311] analyzing module glbl
